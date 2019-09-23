@@ -1,11 +1,14 @@
 
 public class CMapaAsientos {
 
-	private String Id = "";
 	private String Asiento = "";
 	
 	public CMapaAsientos() {
-		// TODO Auto-generated constructor stub
+	}
+	
+	public String setAsiento(String asiento1) {
+		Asiento= asiento1;
+		return Asiento;
 	}
 
 }

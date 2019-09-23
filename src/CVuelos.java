@@ -7,11 +7,27 @@ public class CVuelos {
 	private String LugarDestino = "";
 	private String HoraSalida = "";
 	private String HoraLlegada = "";
-	private String Costo = "";
-	private String Avion = "";
+	private Double Costo = 0.00;
 	
 	public CVuelos() {
-		
+		ID = "q3e421et56";
+		Fecha = "26/10/19";
+		LugarSalida = "Villahermosa";
+		LugarDestino = "Chetumal";
+		HoraSalida = "20:00";
+		HoraLlegada = "4:30";
+		Costo = 444.00;
+	}
+	
+	public String printVuelos() {
+		String datos = "Datos del vuelo \n";
+		datos += "\n Fecha: " + Fecha;
+		datos += "\n LugarSalida: " + LugarSalida;
+		datos += "\n LugarDestino: " + LugarDestino;
+		datos += "\n HoraSalida: " + HoraSalida;
+		datos += "\n HoraLlegada: " + HoraLlegada;
+		datos += "\n Costo: " + Costo;
+		return datos;
 	}
 
 	
