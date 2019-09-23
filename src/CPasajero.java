@@ -20,7 +20,7 @@ public class CPasajero {
 		FechaNacimiento = FechaNacimiento1;
 	}
 	
-	public String ImprimirPasajero() {
+	public String printPasajero() {
 		String mensaje = "Datos del Pasajero: \n";
 		mensaje += "\nNombre: " + Nombre;
 		mensaje += "\nCorreo: " + NumeroTelefono;
